@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tree-viewer/static/css/main.b14660fb.css",
+    "main.js": "/tree-viewer/static/js/main.c8a7e72a.js",
+    "static/js/453.f9afbb07.chunk.js": "/tree-viewer/static/js/453.f9afbb07.chunk.js",
+    "index.html": "/tree-viewer/index.html",
+    "main.b14660fb.css.map": "/tree-viewer/static/css/main.b14660fb.css.map",
+    "main.c8a7e72a.js.map": "/tree-viewer/static/js/main.c8a7e72a.js.map",
+    "453.f9afbb07.chunk.js.map": "/tree-viewer/static/js/453.f9afbb07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b14660fb.css",
+    "static/js/main.c8a7e72a.js"
+  ]
+}
