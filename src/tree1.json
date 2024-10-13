@@ -1,0 +1,188 @@
+{
+  "key": "START",
+  "children": [
+    {
+      "key": "M1",
+      "children": [
+        {
+          "key": "EAES",
+          "children": [
+            {
+              "key": "PHYSICAL",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "JURIDICAL",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "OTHER_COUNTRIES",
+          "children": [
+            {
+              "key": "PHYSICAL",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "JURIDICAL",
+              "children": [
+                {
+                  "key": "GASOLINE",
+                  "children": [
+                    {
+                      "key": "ENGINE_VOLUME",
+                      "children": [
+                        {
+                          "key": "AGE",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "ELECTRIC",
+                  "children": [
+                    {
+                      "key": "AGE",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BUSES_AND_TRUCKS",
+      "children": [
+        {
+          "key": "N1_N3",
+          "children": [
+            {
+              "key": "WEIGHT",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "M2_M3",
+          "children": [
+            {
+              "key": "ELECTRIC",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "GASOLINE",
+              "children": [
+                {
+                  "key": "ENGINE_VOLUME",
+                  "children": [
+                    {
+                      "key": "AGE",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "TRUCK_UNITS",
+          "children": [
+            {
+              "key": "TRUCK_UNITS_OTHER",
+              "children": [
+                {
+                  "key": "WEIGHT",
+                  "children": [
+                    {
+                      "key": "AGE",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "TRUCK_UNITS_6_CLASS",
+              "children": [
+                {
+                  "key": "WEIGHT",
+                  "children": [
+                    {
+                      "key": "AGE",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "TRAILERS_O4",
+          "children": [
+            {
+              "key": "TRAILERS_O4_TYPE",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "SELF_PROPELLED_VEHICLES",
+      "children": [
+        {
+          "key": "SELF_PROPELLED_TYPE",
+          "children": [
+            {
+              "key": "ENGINE_VOLUME",
+              "children": [
+                {
+                  "key": "AGE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
