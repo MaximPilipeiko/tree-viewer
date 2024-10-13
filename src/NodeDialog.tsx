@@ -14,6 +14,7 @@ function NodeDialog(props: Props): React.JSX.Element {
     key: props.node.label,
     description: props.node.description,
     nextStep: props.node.nextStep,
+    price: props.node.price,
   })
 
   const handleChange = (e: any) => {
@@ -31,6 +32,7 @@ function NodeDialog(props: Props): React.JSX.Element {
       label: formData.key,
       description: formData.description,
       nextStep: formData.nextStep,
+      price: formData.price,
     })
     props.closeDialog()
   }
@@ -80,6 +82,17 @@ function NodeDialog(props: Props): React.JSX.Element {
                 type="text"
                 name="nextStep"
                 value={formData.nextStep}
+                onChange={handleChange}
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              Price:
+              <input
+                type="text"
+                name="price"
+                value={formData.price}
                 onChange={handleChange}
               />
             </label>

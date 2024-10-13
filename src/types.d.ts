@@ -4,6 +4,7 @@ export type Node = {
   level: number
   description?: string
   nextStep?: string
+  price?: string
 }
 
 export type Edge = {

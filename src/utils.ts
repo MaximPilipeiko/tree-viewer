@@ -36,6 +36,7 @@ export function convertVisNodeToTreeNode(node: Node): any {
     key: node.label,
     description: node.description,
     nextStep: node.nextStep,
+    price: node.price,
     children: [],
   }
 }
@@ -49,7 +50,7 @@ export function convertTreeToVisData(tree: any): TreeDate {
       id: parent.key,
       label: parent.label,
       description: parent.description,
-      nextStep: parent.nextStep,
+      price: parent.price,
       level
     })
     if (parent.children) {
