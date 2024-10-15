@@ -52,7 +52,7 @@ export function convertTreeToVisData(tree: any): TreeDate {
       label: parent.label,
       description: parent.description,
       price: parent.price,
-      //why did you remove nextStep: parent.nextStep from here?
+      nextStep: parent.nextStep,
       nextMessage: parent.nextMessage,
       level
     })
