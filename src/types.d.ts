@@ -5,6 +5,7 @@ export type Node = {
   description?: string
   nextStep?: string
   price?: string
+  nextMessage?: string
 }
 
 export type Edge = {
